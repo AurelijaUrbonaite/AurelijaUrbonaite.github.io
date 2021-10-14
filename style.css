@@ -1,0 +1,160 @@
+body{
+	background-color: #cccbd0;
+}
+
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+header{
+	background-color: #cccbd0;
+	padding: 40px;
+}
+header h2{
+	margin:0;
+	color: #38324e;
+	font-size: 2.5em;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cccbd0;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #38324e;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Change the link color to #ffffff (white) on hover */
+nav li a:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.one-column{
+	margin-left: 230px;
+	margin-right: 230px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	color: #38324e;
+}
+.page-name{
+	text-align: center;
+}
+#email-me {
+	margin-left: 220px;
+	margin-right: 200px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: #38324e;
+}
+#email {
+	margin-left: 135px;
+	margin-right: 190px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #38324e;
+}
+footer{
+	background-color: #38324e;
+	padding: 40px;
+	color: #cccbd0;
+}
+footer p{
+	margin: 0;
+}
+
+nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38324e;
+}
+
+nav2 li {
+  float: right;
+}
+
+nav2 li a {
+  display: block;
+  color: #cccbd0;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Change the link color to #ffffff (white) on hover */
+nav2 li a:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+nav3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+nav3 li {
+  float: center;
+}
+
+nav3 li a {
+  display: inline-block;
+  color: #cccbd0;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Change the link color to #cccbd0 (beige) on hover */
+nav3 li a:hover {
+  background-color: #cccbd0;
+  border-radius: 15px;
+}
+
+#About-picture {
+	width: 200px;
+	margin-left: 100px;
+	border-radius: 25px;
+}
+.two-column{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	padding: 40px;
+}
+.two-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #38324e;
+}
+.three-column{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 40px;
+}
+.three-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
